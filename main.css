@@ -41,11 +41,60 @@ img
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0px 20px;
 
 }
 
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
+}
+.information{
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translate(-50%);
+}
+#circle{
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #ccc;
+}
+.feature img{
+    width: 70px;
+}
+.feature{
+    position: absolute;
+}
+.one{
+    top: 450px;
+    right: 50px;
+}
+.two{
+    top: 150px;
+    left: 350px;
+}
+.three{
+    bottom: 150px;
+    left: 50px;
+}
+.four{
+    bottom: 150px;
+    right: 350px;
+}
+
+#flex-container{
+
+    display: flexbox;
+}
+#item{
+    height: 100px;
+    width: 100px;
+    background: #9c279c;
 }
